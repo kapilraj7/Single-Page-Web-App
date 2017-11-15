@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<!-- define angular app -->
+<html ng-app="myApp">
+
+<head>
+  <script data-require="angular.js@1.6.5" data-semver="1.6.5" src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.5/angular.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.0rc1/angular-route.min.js"></script>
+  <link rel="stylesheet" href="style.css" />
+  <script src="script.js"></script>
+</head>
+
+<!-- define angular controller -->
+
+<body ng-controller="mainController">
+  <!-- NAVBAR -->
+
+  <nav>
+    <div>
+      <h1>Single Page Application</h1>
+      <ul>
+        <li><a href="#/">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+
+  <!-- MAIN CONTENT AND INJECTED VIEWS -->
+  <div>
+
+    <!-- this is where content will be injected -->
+    <div ng-view></div>
+
+
+  </div>
+</body>
+
+</html>
