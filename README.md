@@ -23,3 +23,6 @@ Note: you must add the ngRoute as a dependency in the application module.
 templateUrl is the route for each page.
 
 you can also define controller for each "view".so that you can add additional messages in your page.
+**************************************
+Updating App with CSS style using BootStrap and Font Awesome framework.
+Added Bootstrap and Font Awesome classes in HTML tags.
