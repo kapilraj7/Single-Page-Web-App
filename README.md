@@ -9,12 +9,12 @@ with the help of Angular functionality Routing, it's possible to make applicatio
 
 -> index.html
 
-added the angular module and controller to the HTML so that Angular knows how to bootstrap the application.
+Added the angular module and controller to the HTML so that Angular knows how to bootstrap the application.
 using ng-view directive that will load the template of different route in main layout file.
 
 -> script.js
 
-created angular module and controller. Add scope object and its property message to bind data between 
+Created angular module and controller. Add scope object and its property message to bind data between 
 view and controller
 using $routeProvider in Angular to handle all the routing.
 
@@ -26,3 +26,9 @@ you can also define controller for each "view".so that you can add additional me
 **************************************
 Updating App with CSS style using BootStrap and Font Awesome framework.
 Added Bootstrap and Font Awesome classes in HTML tags.
+
+--> Contact.html
+Created Form with Angular validation and Enabaling Submit button once all required fields are filled.
+added bootstrap styling with html tags. 
+
+
