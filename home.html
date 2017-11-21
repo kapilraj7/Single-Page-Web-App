@@ -1,6 +1,22 @@
 <!-- home.html -->
-<div class="jumbotron text-center">
-  <h3>Home Page</h3>
-
-  <p>{{ message }}</p>
+<div>
+  <div class="jumbotron text-center">
+    <h3>Home Page</h3>
+  </div>
+  <h4>Customers Feedback Table</h4>
+  <table>
+    <tr>
+      <th>No.</th>
+      <th>Name</th>
+      <th>Email Id</th>
+      <th>Feedback</th>
+    </tr>
+    <!-- getting item from objData, which is defined in home controller -->
+    <tr ng-repeat="item in objData">
+      <td>{{ $index + 1 }}</td>
+      <td> {{ item.name }} </td>
+      <td> {{ item.email }} </td>
+      <td> {{ item.txtarea }} </td>
+    </tr>
+  </table>
 </div>
